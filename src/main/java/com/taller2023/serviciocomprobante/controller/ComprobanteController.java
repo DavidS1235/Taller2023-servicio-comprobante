@@ -23,7 +23,7 @@ public class ComprobanteController {
         return service.findByIdCompr(idComp);
     }
 
-    @RequestMapping(value = "/comrpobantes/create", method = RequestMethod.POST)
+    @RequestMapping(value = "/comprobantes/create", method = RequestMethod.POST)
     public void addComprobante(
             @RequestBody Comprobante comprobante) {
         service.createComprobante(comprobante);
