@@ -3,15 +3,6 @@ package com.taller2023.serviciocomprobante.entity;
 import lombok.Data;
 
 import javax.persistence.*;
-
-/*  `idComprobante` varchar(6) NOT NULL,
-          `idCliente` varchar(11) NOT NULL,
-          `codVendedor` varchar(6) NOT NULL,
-          `tipoComp` int(1) NOT NULL,
-          `fechaComp` datetime NOT NULL,
-          `subtotal` float NOT NULL,
-          `igv` float NOT NULL,
-          `total` float NOT NULL*/
 @Entity
 @Table(name = "comprobante")
 @Data
